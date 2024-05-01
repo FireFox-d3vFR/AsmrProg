@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="pixels.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>#1 - PixelArt-Generator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="opt-wrapper">
+            <div class="slider">
+                <label for="width-range">Largeur - Grille</label>
+                <input type="range" id="width-range" min="1" max="35">
+                <span id="width-value">00</span>
+            </div>
+            <div class="slider">
+                <label for="height-range">Hauteur - Grille</label>
+                <input type="range" id="height-range" min="1" max="35">
+                <span id="height-value">00</span>
+            </div>
+        </div>
+        <div class="opt-wrapper">
+            <button id="submit-grid">Créer</button>
+            <button id="clear-grid">Supprimer</button>
+            <input type="color" id="color-input">
+            <button id="erase-btn">Effacer</button>
+            <button id="paint-btn">Dessiner</button>
+            <button id="save-button">Sauvegarder</button>
+        </div>
+        <div class="container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
