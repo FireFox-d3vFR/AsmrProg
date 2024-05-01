@@ -13,7 +13,7 @@ qrText.addEventListener("input", handleQRText);
 sizes.addEventListener("change", handleSize);
 shareBtn.addEventListener("click", handleShare);
 
-const defaultUrl = "https://youtu.be/u5Ho1trvlro";
+const defaultUrl = "https://www.youtube.com/watch?v=xvFZjo5PgG0&pp=ygUJcmlja3Jvb2xs";
 let colorLight = "#fff",
     colorDark = "#000",
     text = defaultUrl,
